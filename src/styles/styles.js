@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   withWhiteBackground: {
-    backgroundColor: colors.orange,
+    backgroundColor: colors.white,
   },
   alignedRow: {
     flexDirection: 'row',

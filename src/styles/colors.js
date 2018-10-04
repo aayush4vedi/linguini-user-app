@@ -1,5 +1,7 @@
 const colors = {
   white: '#FFFFFF',
+  turquoise: '#40E0D0',
+  lightcyan: '#a2fce1',
   orange: '#F6C030',
   gray: 'rgba(155,155,155,1)',
   transparent: 'transparent',
