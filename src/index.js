@@ -27,7 +27,7 @@ const App = ({
       <AppLoading
         startAsync={asyncJob}
         onFinish={() => setLoadingStatus(false)}
-        onError={console.warn} // eslint-disable-line
+        onError={console.warn} 
       />
     );
   }

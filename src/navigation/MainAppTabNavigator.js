@@ -14,13 +14,13 @@ const TabRoutes = {
       tabBarIcon: TabIcon('package'),
     },
   },
-  [screens.RecordAudioTab]: {
-    screen: RecordAudioNavigator,
-    navigationOptions: {
-      title: 'Audio Recording',
-      tabBarIcon: TabIcon('mic'),
-    },
-  },
+  // [screens.RecordAudioTab]: {
+  //   screen: RecordAudioNavigator,
+  //   navigationOptions: {
+  //     title: 'Audio Recording',
+  //     tabBarIcon: TabIcon('mic'),
+  //   },
+  // },
   [screens.RecordVideoTab]: {
     screen: RecordVideoNavigator,
     navigationOptions: {

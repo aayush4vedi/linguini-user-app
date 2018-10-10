@@ -76,14 +76,22 @@ PlayVideoScreen.navigationOptions = ({ navigation }) => ({
   ...headerStyle,
   title: getParam(navigation, 'title'),
   headerRight: (
-    <NavigationButton
-      text="Remove"
-      enabled
-      onPress={() => {
-        getParam(navigation, 'remove')();
-        navigation.dispatch(NavigationActions.back({ key: null }));
-      }}
-    />
+    //button to delete the video
+    <View style={{flex: 3, flexDirection: 'rows'}}>
+      <NavigationButton
+        text="Delete"
+        enabled
+        onPress={() => {
+          getParam(navigation, 'remove')();
+          navigation.dispatch(NavigationActions.back({ key: null }));
+        }}
+          onPress={()=>{
+            console.log("uploaded!")
+          }}
+      />
+      
+    </View>
+  
   ),
 });
 

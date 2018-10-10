@@ -2,12 +2,12 @@ import { createStore, applyMiddleware, compose, combineReducers } from 'redux';
 import thunk from 'redux-thunk';
 import reducers from '../modules';
 
-let store = null; // eslint-disable-line
+let store = null; 
 
 const reducer = combineReducers(reducers);
 
-if (__DEV__) { // eslint-disable-line
-  const devToolsEnhancer = require('remote-redux-devtools'); // eslint-disable-line
+if (__DEV__) { 
+  const devToolsEnhancer = require('remote-redux-devtools'); 
   store = createStore(
     reducer,
     {},
